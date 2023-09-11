@@ -1,0 +1,150 @@
+
+@font-face {
+
+    font-family: Corn;
+    
+    src: url(/fuentes/Super\ Corn.ttf)
+    
+    }
+@font-face {
+
+        font-family: Love;
+        
+        src: url(/fuentes/Love\ Nature.otf)
+        
+        }
+    
+
+@font-face {
+
+        font-family: Vigallse;
+        
+        src: url(/fuentes/Vigallse\ -\ Vintage\ Modern\ Serif\ Typeface.ttf)
+        
+        }
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #dcd1b4;
+    margin: 0;
+    height: 100px;
+    padding-right: 10px;
+    
+ }
+
+.barra {
+    float:right;
+    
+}
+
+.barra a{
+    text-decoration: none;
+    text-shadow: 3px 2px 5px white;
+    color:#b05574 ;
+
+}
+.barra ul li{
+    display: inline-flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.barra a:hover {
+    color: white;
+}
+
+.presentacion {
+    height: 700px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1, 500px);
+    justify-content: center;
+}
+
+.item1 {
+    background-color:#b05574;
+    text-align: center;
+
+}
+
+
+
+.item2 {
+    background-color: #dcd1b4;
+    background-image: url(/IMAGENES/300250725_10223611305891033_5607654687812894271_n.jpg);
+    box-sizing: content-box;
+    border:solid #b05574 10px;   
+}
+
+
+h1 {
+    color: #dcd1b4;
+    margin-top: 60px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 10px;
+  }
+
+h2 {
+    color: #dcd1b4;
+    margin-top:50px;
+  
+}
+.item1 p{
+    color: #fab87f;
+    font-size: 25px;
+    margin-top: 50px;
+    box-sizing: content-box;
+
+
+}
+
+footer {
+    background-color: #dcd1b4;
+    height: 200px;
+    text-align: center; 
+    margin-top: -200px; 
+
+}
+
+footer h3{
+    color: #b05574;
+    font-size: 45px;
+    padding: 45px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer h3 span {
+    text-decoration: line-through;
+ }
+
+.logo {
+    font-size: 15px;
+    color:#b05574;
+    padding: 2%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 span {
+    text-decoration:underline;
+    color:#fab87f;
+    font-family: love;
+}
+
+.whatsapp, .instagram {
+    color: #b05574;
+}
+
+.whatsapp:hover {
+    color:#c6a49a;
+}
+.instagram:hover {
+    color:#c6a49a;
+
+}
